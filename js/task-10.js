@@ -32,9 +32,7 @@ function renderBoxes() {
   }
 
 function destroyerOfElements (){
-
-  plaseForBoxes.innerHTML = '';
-  elements.value = '';
+  location.reload();
 }
 
 buttonCreateElements.addEventListener('click', renderBoxes)
