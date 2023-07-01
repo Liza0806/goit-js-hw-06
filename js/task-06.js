@@ -1,7 +1,7 @@
 const inputJs = document.querySelector("#validation-input")
 
 inputJs.onblur = () =>{
-    if (inputJs.value.length === 6){
+    if (inputJs.value.length === Number(inputJs.dataset.length)){
              inputJs.classList.add("valid")
         } else {
             inputJs.classList.add("invalid")
